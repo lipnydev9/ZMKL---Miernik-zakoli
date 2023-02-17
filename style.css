@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Advent Pro";
+    box-sizing: border-box;
+    background-color: #24252A;
+}
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    border-bottom:  solid  #0088a9 2px;
+}
+.logo{
+    cursor: pointer;
+    width: 40px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+.btnhead{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btnhead:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    border-top:  solid  #0088a9 2px;
+    clear: both;
+}
+.bagno_szysza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: #edf0f1;
+    }
+.inputW{
+    text-align: center;
+    color: #edf0f1;
+    margin-bottom: 200px;
+}
+.inputW p{
+    padding-bottom: 100px;
+}
+.b_h1{
+    display: flex;
+    text-align: center;
+    padding-left: 20% ;
+    padding-right: 20% ;
+}
+.num{
+    border: none;
+    border-radius: 50px;
+    background-color: #0088a9;
+    color: #edf0f1;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+#display_image {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.mainU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#display_image{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.uplod{
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    color: #edf0f1;
+    background: #0088a9;
+}
+.galeria{
+display: flex;
+    justify-content: center;
+
+}
+.ruler{
+    display: flex;
+    justify-content: center;
+}
+.imga{
+    padding: 4px 4px;
+    border: #edf0f1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+}
+.lista{
+    list-style: none;
+}
+.faqq{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 300px;
+}

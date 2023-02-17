@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stan | ZMKL</title>
+    <link rel="shortcut icon" href="ruler.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Advent+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<style>
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+</style>
+<body>
+    <header class="header">
+        <a href="index.html"><img src="ruler.png" alt="e e e e dzwik" class="logo"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="stan.html">Stan</a></li>
+                <li><a href="ekspozycja.html">Ekspozycja</a></li>
+                <li><a href="wstawianie.html">Wstawianie</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="tworcy.html"><button class="btnhead">Twórcy</button></a>
+    </header>
+
+    <div class="bagno_szysza">
+        <h1 class="b_h1">Wyliczarka stanu zakoli</h1>
+    </div>
+
+    <div class="inputW">
+        <p>Wprowadz tutaj ilośc centymentrów od brwi do czoła, a my powiemy ci jakie są twoje zakola</p>
+        <input type="number" class="num" id="num" name="num" min="1" max="100" onchange="numf()">
+    </div>
+    <footer>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </footer>
+<script>
+    function numf() {
+        let number = document.getElementById("num").value;
+        if (number < 5) {
+            alert("Małe zakola")
+        } else if (number > 5 && number <= 15) {
+            alert("Średnie zakola")
+        } else if (number > 16 && number <= 30) {
+            alert("Duże zakola")
+        } else if (number > 31 && number <= 50) {
+            alert("K o l o s a l n e  zakola")
+        } else if (number > 51 && number <= 100) {
+            alert("Ty to chyba łysy jesteś")
+        }
+
+    }
+</script>
+
+</body>
+</html>
